@@ -1,0 +1,30 @@
+{
+  "name": "vue",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "@tinymce/tinymce-vue": "^5.1.1",
+    "docx": "^8.5.0",
+    "html2pdf.js": "^0.10.2",
+    "marked": "^14.1.1",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.6.82",
+    "pdfreader": "^3.0.5",
+    "tinymce": "^7.3.0",
+    "vee-validate": "^4.13.2",
+    "vue": "^3.4.37",
+    "vue-router": "^4.4.3",
+    "vuetify": "^3.7.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "vite": "^5.4.1"
+  }
+}
